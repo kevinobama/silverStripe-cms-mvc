@@ -1,0 +1,9 @@
+---
+Name: mysiteroutes
+After: framework/routes#coreroutes
+---
+Director:
+  rules:
+    #'orders//$Action/$ID/$Name': 'Controllers\OrderController'
+    'orders//$Action/$ID/$Name': 'OrderController'   
+    '': 'HomeController'

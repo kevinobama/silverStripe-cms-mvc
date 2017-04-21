@@ -1,0 +1,2 @@
+<br>
+SilverStripe templates are plain text files that have .ss extension and located within the templates directory of a module, theme, or your mysite folder. A template can contain any markup language (e.g HTML, CSV, JSON..) and before being rendered to the user, they're processed through SSViewer. This process replaces placeholders such as $Var with real content from your model and allows you to define logic controls like <% if $Var %>.
