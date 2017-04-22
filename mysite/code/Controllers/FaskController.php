@@ -6,7 +6,9 @@
 class FaskController extends Page_Controller {
 
     public function index(SS_HTTPRequest $request) {
-
+        
+        Backtrace::backtrace();
+        
 		$order = Order::create();
 		$order->OrderNumber = date('Y-m-d H:i:s');
 		$order->status = "1";

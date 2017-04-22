@@ -18,11 +18,6 @@
 	        'Member' => 'Member', 
 	    );
 
-	    private static $has_many = array(
-	        'Comment' => 'Comment',
-	        'Like' => 'Like',
-	        'Notification' => 'Notification'
-	    );
 
 	    private static $defaults = array(
 	        'Ranking' => 999,

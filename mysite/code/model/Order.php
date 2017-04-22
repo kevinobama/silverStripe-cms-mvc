@@ -1,5 +1,5 @@
 <?php
-class Order extends Feed {
+class Order extends DataObject {
 
 	private static $db = array(
 		"OrderNumber" => "Varchar(255)",

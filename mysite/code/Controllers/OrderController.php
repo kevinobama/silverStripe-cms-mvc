@@ -5,7 +5,7 @@
 class OrderController extends Controller {
 
     public function index(SS_HTTPRequest $request) {
-
+        
 		$order = Order::create();
 		$order->OrderNumber = date('Y-m-d H:i:s');
 		$order->status = "1";
@@ -17,7 +17,7 @@ class OrderController extends Controller {
         foreach($orders as $order) {
             echo("<li>".$order->OrderNumber);
         }
-        
+        //Backtrace::backtrace();
         return $this->renderWith("Show");
     }
 

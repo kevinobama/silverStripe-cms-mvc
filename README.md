@@ -4,6 +4,14 @@ http://silverstripelocal/orders
 http://silverstripelocal/?flush=1 clear cache
 /admin/pages/add/ =>CMSPageAddController public function AddForm()
 
+?isDev=1
+?debug=1
+?debugfailover=1
+?showqueries=1
+
+/orders/?showqueries=1
+/orders/?previewwrite=1
+
 ## Overview
 
 Base project folder for a SilverStripe ([http://silverstripe.org](http://silverstripe.org)) installation. Requires additional modules to function:
