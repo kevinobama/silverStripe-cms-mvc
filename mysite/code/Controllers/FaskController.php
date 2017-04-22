@@ -1,8 +1,9 @@
 <?php
 //http://silverstripelocal/orders
 //http://silverstripelocal/orders/add
+//class Fask extends Page {}
 
-class OrderController extends Controller {
+class FaskController extends Page_Controller {
 
     public function index(SS_HTTPRequest $request) {
 

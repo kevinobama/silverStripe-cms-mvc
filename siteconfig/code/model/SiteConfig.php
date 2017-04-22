@@ -22,6 +22,7 @@ class SiteConfig extends DataObject implements PermissionProvider, TemplateGloba
 		"Title" => "Varchar(255)",
 		"Tagline" => "Varchar(255)",
 		"Theme" => "Varchar(255)",
+		"keywords" => "Varchar(3000)",
 		"CanViewType" => "Enum('Anyone, LoggedInUsers, OnlyTheseUsers', 'Anyone')",
 		"CanEditType" => "Enum('LoggedInUsers, OnlyTheseUsers', 'LoggedInUsers')",
 		"CanCreateTopLevelType" => "Enum('LoggedInUsers, OnlyTheseUsers', 'LoggedInUsers')",

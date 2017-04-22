@@ -39,3 +39,7 @@ ErrorDocument 500 /assets/error-500.html
 	RewriteCond %{REQUEST_FILENAME} !-f
 	RewriteRule .* framework/main.php?url=%1 [QSA]
 </IfModule>
+<Files supersake>
+	Order allow,deny
+	Deny from all
+</Files>
