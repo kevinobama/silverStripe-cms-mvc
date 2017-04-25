@@ -4,6 +4,17 @@ After:
   - 'framework/*'
   - 'cms/*'
 ---
+
+# Open Routing for Oper Api
+Director:
+  rules:
+    'api/v1': 'RESTfulAPI'
+# RestfulAPI config
+RESTfulAPI:
+  allowed_actions:
+      - fask
+      - fanswer
+
 # YAML configuration for SilverStripe
 # See http://doc.silverstripe.org/framework/en/topics/configuration
 # Caution: Indentation through two spaces, not tabs

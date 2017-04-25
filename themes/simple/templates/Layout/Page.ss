@@ -7,3 +7,10 @@
 		$Form
 		$CommentsForm
 </div>
+One thing you could check is did you also change the page type for the home page in the cms?
+
+If you followed the tutorial exactly then it should work.
+
+Regards
+
+Trevor

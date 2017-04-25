@@ -9,11 +9,10 @@ $databaseConfig = array(
 	'server' => 'localhost',
 	'username' => 'kevingates',
 	'password' => '654321',
-	'database' => 'silverstripelocal',
+	'database' => 'efanswer_development_silverstripe',
 	'path' => ''
 );
 
 Director::set_environment_type("dev");
 // Set the site locale
 i18n::set_locale('en_US');
-CMSMenu::remove_menu_item('help');

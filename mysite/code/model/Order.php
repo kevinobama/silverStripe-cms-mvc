@@ -5,4 +5,7 @@ class Order extends DataObject {
 		"OrderNumber" => "Varchar(255)",
 		"status" => "Int",
 	);    
+
+	
+	static $api_access = true;
 }

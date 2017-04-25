@@ -1,4 +1,4 @@
-http://silverstripelocal/?flush=all
+http://silverstripelocal/?flush=1
 http://silverstripelocal/orders
 
 http://silverstripelocal/?flush=1 clear cache

@@ -9,6 +9,11 @@
 	        'Fanswer' => 'Fanswer',
 	    );
 
+        private static $summary_fields = array(
+          'ID',
+          'Text'
+        );
+
 	    public function getFanswerForm() {
            
             
@@ -54,5 +59,5 @@
          
         }
 
-         
-	}
+        
+}
