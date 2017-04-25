@@ -18,6 +18,11 @@ class RESTfulAPI extends Controller
 
     public function fanswer($action = null)
     {
-        return array('data'=>'fanswer');;
+    	$fasks = Fask::get()->limit(10);
+    	foreach($fasks as $fask) {
+			$json['data'][$fask->ID] = $fask->Text;
+		}
+    	
+        return new SS_HTTPResponse(Convert::array2json($json), 200);
     }    
 }
