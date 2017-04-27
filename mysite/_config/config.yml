@@ -9,11 +9,14 @@ After:
 Director:
   rules:
     'api/v1': 'RESTfulAPI'
+    'api/v2': 'RESTfulAPIV2'
 # RestfulAPI config
 RESTfulAPI:
   allowed_actions:
       - fask
       - fanswer
+      - faskcreate
+      - walkthrough
 
 # YAML configuration for SilverStripe
 # See http://doc.silverstripe.org/framework/en/topics/configuration
